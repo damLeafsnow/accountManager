@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c0930390-c7fc-40af-8a73-e832f548f139}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ae9be03b-5699-427c-81bd-e7b4f144050b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5fa18fcf-7f76-41f2-a4ac-9fe4b3830652}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="magicLib">
+      <UniqueIdentifier>{6c5d782c-8bc9-441e-af09-7ac3f8e50422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="front.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="magicLib\magicLib.cpp">
+      <Filter>magicLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="back.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="front.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="magicLib\magicLib.h">
+      <Filter>magicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="magicLib\Log.h">
+      <Filter>magicLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
